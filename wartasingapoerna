@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Warta Singaparna</title>
+
+<link href="https://script.google.com/macros/s/AKfycbzhrhL9X6luCrdTSo-DHBs2WTuUYcdNJfJCJ3X0Qb1C0x37YoGC3FaAimMeye6SXTyo/exec">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#b71c1c;
+    color:white;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:60px;
+    margin-right:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://drive.google.com/file/d/1WBNLVjr72bns-lWmCD4ra4MgfTwQM6Nw/view?usp=drive_link");
+    background-size:cover;
+    background-position:center;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:25px;
+    background:#ffcc00;
+    color:#222;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.section{
+    max-width:1100px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+    <img src="logo.png" alt="Logo">
+    <div>
+        <h2>Warta Singaparna</h2>
+        <small>Portal Berita Tasikmalaya</small>
+    </div>
+</div>
+
+<nav>
+<a href="#">Beranda</a>
+<a href="#">Berita</a>
+<a href="#">Daerah</a>
+<a href="#">Ekonomi</a>
+<a href="#">Olahraga</a>
+<a href="#">Kontak</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Warta Singaparna</h1>
+
+<p>Menyajikan berita cepat, akurat, dan terpercaya.</p>
+
+<a href="#" class="button">Baca Berita</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 style="margin-bottom:25px;">Berita Terbaru</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/500/300?1">
+<h3>Judul Berita Pertama</h3>
+<p>Ringkasan berita singkat dapat ditampilkan di sini.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?2">
+<h3>Judul Berita Kedua</h3>
+<p>Ringkasan berita singkat dapat ditampilkan di sini.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?3">
+<h3>Judul Berita Ketiga</h3>
+<p>Ringkasan berita singkat dapat ditampilkan di sini.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Warta Singaparna. Semua Hak Dilindungi.
+
+</footer>
+
+</body>
+</html>
